@@ -1,0 +1,15 @@
+name: "SBOM merge"
+description: "Merge SBOMs of CycloneDX v1.3"
+author: "Alex Dracea"
+inputs:
+  files:
+    description: "Patter to find input sbom files: ./bom*.xml "
+    default: ./bom*.xml
+    required: true
+  ofile:
+    description: "Output file"
+    required: false
+    default: ./finalSbom.xml
+runs:
+  using: "docker"
+  image: "Dockerfile"

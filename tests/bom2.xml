@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:ba50ec61-d408-482a-87aa-9b10a6680565" version="1">
+    <metadata>
+        <timestamp>2022-03-31T01:32:46.877Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>Node.js module</name>
+                <version>3.6.0</version>
+            </tool>
+        </tools>
+        <component type="library" bom-ref="pkg:npm/web-app@0.0.0">
+            <name>web-app</name>
+            <version>0.0.0</version>
+            <description>
+                <![CDATA[This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.]]>
+            </description>
+            <purl>pkg:npm/web-app@0.0.0</purl>
+        </component>
+    </metadata>
+    <components>
+        <component type="library" bom-ref="pkg:npm/%40angular/animations@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>animations</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - animations integration with web-animations]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d0138640eb9ab9d206d29aba1409c6e79b5e28ceed11065d23076839fd2892187d9f4705592591523bd4c56b76e5b5acc253be1f110bc898a889152f552112e2</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/animations@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tslib@2.0.1">
+            <author>Microsoft Corp.</author>
+            <name>tslib</name>
+            <version>2.0.1</version>
+            <description>
+                <![CDATA[Runtime library for TypeScript helper functions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">4a02243617a29e6101831d4850d8ab2b44d40f85fdca38c1453aaa8e0816094de9504a88937fd4c25df2462c58293e968d0b868b00efe0da262f7c2a4428fe09</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>0BSD</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tslib@2.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.typescriptlang.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/Microsoft/TypeScript/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/Microsoft/tslib.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/cdk@10.1.3">
+            <group>@angular</group>
+            <name>cdk</name>
+            <version>10.1.3</version>
+            <description>
+                <![CDATA[Angular Material Component Development Kit]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c4c575338d667ee690a1de2bb401bf76e62259f7c6202d82f3b13562ec874e1f1211c1e8a4655141dd82f0f587fa2c229cf6deb3b023535bb3084be63988a4ac</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/cdk@10.1.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/components#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/components/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/components.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/parse5@5.1.1">
+            <author>Ivan Nikulin</author>
+            <name>parse5</name>
+            <version>5.1.1</version>
+            <description>
+                <![CDATA[HTML parser and serializer.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">56b67b78e7774f5164e1758d5cc8221812bfcf4306e3c0561b6b90354e08ef67e442e2944d9a65faef64f82c441b4b70315cd2997104cf5db3e459f0d6321014</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/parse5@5.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/inikulin/parse5</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/inikulin/parse5/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/inikulin/parse5.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/common@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>common</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - commonly needed directives and services]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">10e02e68cb761f0245dc3b4827f92c1ed9c5f0faa1e4adab5884982c4b3d47758d6921a7ef891b08e0c04f8a4d848f0fdb66249771f81664148270d9dee0c052</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/common@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/compiler@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>compiler</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - the compiler library]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">958368ebf3269d80151680d00c107a1cc15df731e0dd11d773a867fb07215345d25a222c83a5981db28e6ff0f2a9413229e6f3cb48122997fb8147991ed8fad9</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/compiler@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/core@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>core</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - the core framework]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9be73d83a7c0fe013ee8aec8b74d5beabf131266ee1635196a343d806fe9ce2b2dd264c172a7ef9f43b88795fe79b9d2830fdb6e79e9fb83db697122d6939665</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/core@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/forms@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>forms</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - directives and services for creating forms]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">31c2a1deb5c394013baa60a7c9628435bd8786a013fb576c01f0a1baab34c3c8e12a4a11800d3444315e7ba759e9740273dd3b0f0b95d0af3ec02dc2bc1a77e7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/forms@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/material@10.1.3">
+            <group>@angular</group>
+            <name>material</name>
+            <version>10.1.3</version>
+            <description>
+                <![CDATA[Angular Material]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">eb281b09571e8c5c9d99952539c36b7a25904ef2f890eac4a7f339d4357bd21a9f7d39f16a30b36917b63108718ac10d07f6d1f26b4cbdff1863746ccacfc70b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/material@10.1.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/components#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/components/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/components.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/platform-browser@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>platform-browser</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - library for using Angular in a web browser]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0dc059d70b764f0b57add72609359a9c0ceed95c64e54be2a1a9b451c0f17205c3f384f67c78a9c9f6559f4edf32a46fcc5423e39b4334011ebc50671996abe3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/platform-browser@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/platform-browser-dynamic@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>platform-browser-dynamic</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - library for using Angular in a web browser with JIT compilation]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3cf08088d87f252b9034a5ce863ddaf024c5755853805fc4a46b5aa2d9d5aff05f6c931e14898aa3b9b6410393b0015a10fd83bab4879e87cf9cc5807c74b69a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/platform-browser-dynamic@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40angular/router@10.0.14">
+            <author>angular</author>
+            <group>@angular</group>
+            <name>router</name>
+            <version>10.0.14</version>
+            <description>
+                <![CDATA[Angular - the routing library]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">556cda3723d90d8f7d4ccb335751a55c98153b15ec8e126bb2fde621c8dacf575f76528e78a4d50cb767c977cff429301373d19af1bb7925e9a488fa9e7f41a5</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40angular/router@10.0.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular/tree/master/packages/router</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40okta/okta-angular@2.2.0">
+            <group>@okta</group>
+            <name>okta-angular</name>
+            <version>2.2.0</version>
+            <description>
+                <![CDATA[Angular support for Okta]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2aadc5b557d57325104006f10ca309a63f1e8504214a35f94d013281a331b04ab9ec27ee285afdd54cb223e0c3b290c3a817922c16baafb7c99407e44ab03cb7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40okta/okta-angular@2.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/okta/okta-oidc-js/tree/master/packages/okta-angular</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/okta/okta-oidc-js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/okta/okta-oidc-js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40okta/configuration-validation@0.4.3">
+            <group>@okta</group>
+            <name>configuration-validation</name>
+            <version>0.4.3</version>
+            <description>
+                <![CDATA[Configuration validation support for Okta JavaScript SDKs]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">767ff510c1a1c1a8d0c15fe3348ae3eb3bd80dd0e9148427adda91030c3f4afcc8cfd72e3dbc35bd8051a41617d914293e1249bb2ea265fd1707ac9654351abf</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40okta/configuration-validation@0.4.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/okta/okta-oidc-js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/okta/okta-oidc-js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/okta/okta-oidc-js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/lodash@4.17.20">
+            <author>John-David Dalton</author>
+            <name>lodash</name>
+            <version>4.17.20</version>
+            <description>
+                <![CDATA[Lodash modular utilities.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3e585d15c8a594e20d7de57b362ea81754c011acb2641a19f1b72c8531ea39825896bab344ae616a0a5a824cb9a381df0b3cddd534645cf305aba70a93dac698</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/lodash@4.17.20</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://lodash.com/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/lodash/lodash/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/lodash/lodash.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40okta/okta-auth-js@3.2.3">
+            <author>Okta</author>
+            <group>@okta</group>
+            <name>okta-auth-js</name>
+            <version>3.2.3</version>
+            <description>
+                <![CDATA[The Okta Auth SDK]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">94f29c21394785f361ac68672fcfb3ce593ceaedad6675c06a150fb62c84c05afe92d4e9a3cbd686b682475de1c34cf8eab4d1559d6508cb5e749b7fc3331aa1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40okta/okta-auth-js@3.2.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/okta/okta-auth-js</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/okta/okta-auth-js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/okta/okta-auth-js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/Base64@0.3.0">
+            <author>David Chambers</author>
+            <name>Base64</name>
+            <version>0.3.0</version>
+            <description>
+                <![CDATA[Base64 encoding and decoding]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">6da261a4e80d4fa0f5c684254e5bccd16bbdce9f</hash>
+            </hashes>
+            <purl>pkg:npm/Base64@0.3.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/davidchambers/Base64.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/davidchambers/Base64.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/davidchambers/Base64.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/cross-fetch@3.0.5">
+            <author>Leonardo Quixada</author>
+            <name>cross-fetch</name>
+            <version>3.0.5</version>
+            <description>
+                <![CDATA[Universal WHATWG Fetch API for Node, Browsers and React Native]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">1452dc2edada8ac8f97ad7a8b275f581fd35a980c239ce1f0f2d3e7ae3adf0a9fd60163636d5cbfe90a860f6afc36e0d210910aa6e5938bb060f96738f48327b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/cross-fetch@3.0.5</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/lquixada/cross-fetch</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/lquixada/cross-fetch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/lquixada/cross-fetch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/node-fetch@2.6.0">
+            <author>David Frank</author>
+            <name>node-fetch</name>
+            <version>2.6.0</version>
+            <description>
+                <![CDATA[A light-weight module that brings window.fetch to node.js]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">f1d1b81f9ba37ef162a83995bbd7d0e5b387502d7924c8cc63f66e9afdbaa0ebef5498ccebb285f24a0258869b290d462486bdaf698c66c701abf4db74e72634</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node-fetch@2.6.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/bitinn/node-fetch</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/bitinn/node-fetch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/bitinn/node-fetch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/js-cookie@2.2.0">
+            <author>Klaus Hartl</author>
+            <name>js-cookie</name>
+            <version>2.2.0</version>
+            <description>
+                <![CDATA[A simple, lightweight JavaScript API for handling cookies]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">1b2c279a6eece380a12168b92485265b35b1effb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/js-cookie@2.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/js-cookie/js-cookie#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/js-cookie/js-cookie/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/js-cookie/js-cookie.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/node-cache@4.2.1">
+            <author>mpneuried</author>
+            <name>node-cache</name>
+            <version>4.2.1</version>
+            <description>
+                <![CDATA[Simple and fast NodeJS internal caching. Node internal in memory cache like memcached.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">04e6faedb5a0d9d4f26b1e6475e7f959f5375fcc6ee303e0fb31f392f96cd10fd0a58c9c20544b10421d031f5699ae370f11ba4339f88a595d66862c78a59ae0</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node-cache@4.2.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mpneuried/nodecache</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mpneuried/nodecache/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/mpneuried/nodecache.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/clone@2.1.2">
+            <author>Paul Vorbach</author>
+            <name>clone</name>
+            <version>2.1.2</version>
+            <description>
+                <![CDATA[deep cloning of objects and arrays]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">1b7f4b9f591f1e8f83670401600345a02887435f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/clone@2.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/pvorb/node-clone#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/pvorb/node-clone/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/pvorb/node-clone.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tiny-emitter@1.1.0">
+            <author>Scott Corgan</author>
+            <name>tiny-emitter</name>
+            <version>1.1.0</version>
+            <description>
+                <![CDATA[A tiny (less than 1k) event emitter library]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">ab405a21ffed814a76c19739648093d70654fecb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tiny-emitter@1.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/scottcorgan/tiny-emitter#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/scottcorgan/tiny-emitter/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/scottcorgan/tiny-emitter.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/xhr2@0.1.3">
+            <author>Victor Costan</author>
+            <name>xhr2</name>
+            <version>0.1.3</version>
+            <description>
+                <![CDATA[XMLHttpRequest emulation for node.js]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">cbfc4759a69b4a888e78cf4f20b051038757bd11</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/xhr2@0.1.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/pwnall/node-xhr2</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/pwnall/node-xhr2/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/pwnall/node-xhr2.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tslib@1.13.0">
+            <author>Microsoft Corp.</author>
+            <name>tslib</name>
+            <version>1.13.0</version>
+            <description>
+                <![CDATA[Runtime library for TypeScript helper functions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">4a02243617a29e6101831d4850d8ab2b44d40f85fdca38c1453aaa8e0816094de9504a88937fd4c25df2462c58293e968d0b868b00efe0da262f7c2a4428fe09</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>0BSD</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tslib@1.13.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.typescriptlang.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/Microsoft/TypeScript/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/Microsoft/tslib.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/rxjs@6.5.5">
+            <author>Ben Lesh</author>
+            <name>rxjs</name>
+            <version>6.5.5</version>
+            <description>
+                <![CDATA[Reactive Extensions for modern JavaScript]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">59f408fb582885d7f40da8bf05b9a4e4be48b47e6d62a9b7922d9ce4675684a8da9738e0f773776af163552b72659cfe036126f99c4a1f96cd821c3d51eca519</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/rxjs@6.5.5</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/ReactiveX/RxJS</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/ReactiveX/RxJS/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/reactivex/rxjs.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/zone.js@0.10.3">
+            <author>Brian Ford</author>
+            <name>zone.js</name>
+            <version>0.10.3</version>
+            <description>
+                <![CDATA[Zones for JavaScript]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2d754b544ab434d3aa2bf7cb268dddd247f3778b31c27dbf87aeffd36a630a37ca0f1831d62f50aa9bed1c3f02ac19d24b0330e7e772d753bb1515f99a43bb0a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/zone.js@0.10.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/angular/angular#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/angular/angular/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/angular/angular.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+</bom>
