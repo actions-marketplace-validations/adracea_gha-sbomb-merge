@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Self test
         id: selftest
-        uses: adracea/gha-sbomb-merge@master
+        uses: adracea/gha-sbomb-merge@main
         with:
           files: "./tests/bom*.xml"
           ofile: "./tests/finalBom.xml"
