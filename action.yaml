@@ -1,9 +1,13 @@
 name: "SBOM merge"
-description: "Merge SBOMs of CycloneDX v1.3"
+description: "Merge SBOMs of CycloneDX v1.3/v1.4 XML format. Does not support signatures."
 author: "Alex Dracea"
 inputs:
   files:
-    description: "Patter to find input sbom files: ./bom*.xml "
+    description: "Pattern to find input sbom files: ./bom*.xml "
+    default: ./bom*.xml
+    required: true
+  cdxversion:
+    description: "CyclondeDX version of the sboms, supports versions `1.3` and `1.4`"
     default: ./bom*.xml
     required: true
   ofile:

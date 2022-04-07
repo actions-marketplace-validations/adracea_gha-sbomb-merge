@@ -10,6 +10,7 @@ jobs:
         uses: adracea/gha-sbomb-merge@main
         with:
           files: "./tests/bom*.xml"
+          cdxversion: "1.3"
           ofile: "./tests/finalBom.xml"
       - name: Check outputs and modified files
         run: |
