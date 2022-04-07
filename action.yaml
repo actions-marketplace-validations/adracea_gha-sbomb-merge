@@ -1,6 +1,9 @@
 name: "SBOM merge"
 description: "Merge SBOMs of CycloneDX v1.3/v1.4 XML format. Does not support signatures."
 author: "Alex Dracea"
+branding:
+  icon: 'anchor'
+  color: 'green'
 inputs:
   files:
     description: "Pattern to find input sbom files: ./bom*.xml "
