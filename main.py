@@ -31,22 +31,24 @@ def main():
                 .find("default:components", ns)
                 .findall("default:component", ns)
             )
-        if (
-            ET.parse(fil)
-            .getroot()
-            .find("default:metadata", ns)
-            .find("default:tools", ns)
-            .findall("default:tool", ns)
-        ) is None:
+        if (ET.parse(fil).getroot().find("default:metadata", ns)) is None:
             root2 = []
         else:
-            root2 = (
+            if (
                 ET.parse(fil)
                 .getroot()
                 .find("default:metadata", ns)
                 .find("default:tools", ns)
-                .findall("default:tool", ns)
-            )
+            ):
+                pass
+            else:
+                root2 = (
+                    ET.parse(fil)
+                    .getroot()
+                    .find("default:metadata", ns)
+                    .find("default:tools", ns)
+                    .findall("default:tool", ns)
+                )
         if (ET.parse(fil).getroot().find("default:metadata", ns)) is None:
             root3 = []
         else:
