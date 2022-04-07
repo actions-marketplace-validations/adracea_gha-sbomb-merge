@@ -18,31 +18,53 @@ def main():
     rootMetaComps = []
     rootDeps = []
     for fil in files[1:]:
-        root1 = (
-            ET.parse(fil)
-            .getroot()
-            .find("default:components", ns)
-            .findall("default:component", ns)
-        )
-        root2 = (
+        root1 = []
+        root2 = []
+        root3 = []
+        root4 = []
+        if (ET.parse(fil).getroot().find("default:components", ns)) is None:
+            root1 = []
+        else:
+            root1 = (
+                ET.parse(fil)
+                .getroot()
+                .find("default:components", ns)
+                .findall("default:component", ns)
+            )
+        if (
             ET.parse(fil)
             .getroot()
             .find("default:metadata", ns)
             .find("default:tools", ns)
             .findall("default:tool", ns)
-        )
-        root3 = (
-            ET.parse(fil)
-            .getroot()
-            .find("default:metadata", ns)
-            .findall("default:component", ns)
-        )
-        root4 = (
-            ET.parse(fil)
-            .getroot()
-            .find("default:dependencies", ns)
-            .findall("default:dependency", ns)
-        )
+        ) is None:
+            root2 = []
+        else:
+            root2 = (
+                ET.parse(fil)
+                .getroot()
+                .find("default:metadata", ns)
+                .find("default:tools", ns)
+                .findall("default:tool", ns)
+            )
+        if (ET.parse(fil).getroot().find("default:metadata", ns)) is None:
+            root3 = []
+        else:
+            root3 = (
+                ET.parse(fil)
+                .getroot()
+                .find("default:metadata", ns)
+                .findall("default:component", ns)
+            )
+        if (ET.parse(fil).getroot().find("default:dependencies", ns)) is None:
+            root4 = []
+        else:
+            root4 = (
+                ET.parse(fil)
+                .getroot()
+                .find("default:dependencies", ns)
+                .findall("default:dependency", ns)
+            )
         rootComps.extend(root1)
         rootTools.extend(root2)
         rootMetaComps.extend(root3)
